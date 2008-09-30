@@ -26,6 +26,7 @@ dist = setup(name='pyqt-browser',
     #install_requires=['python-pyqt>=4.4.3'],
     #setup_requires=['python-pyqt>=4.4.3'],
     data_files=[
+    ('pixmaps',['data/pyqt-browser.png']),
     ('applications', ['data/pyqt-browser.desktop'])
 ]
 )
