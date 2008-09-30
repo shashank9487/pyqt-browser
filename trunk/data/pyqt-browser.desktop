@@ -5,7 +5,7 @@ TryExec=webbrowser.py
 GenericName=PyQt Browser
 Comment=a WebKit Browser example by Python Qt
 StartupNotify=false
-Exec= env LD_LIBRARY_PATH=/usr/lib LD_PRELOAD=/usr/lib/libQtWebKit.so.4 python webbrowser.py
+Exec= env LD_LIBRARY_PATH=/usr/lib LD_PRELOAD=/usr/lib/libQtWebKit.so.4 python /usr/bin/webbrowser.py
 Icon=pyqt-browser
 Terminal=false
 Type=Application
