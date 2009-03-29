@@ -189,19 +189,19 @@ class MainWindow(QtGui.QMainWindow, Ui_MainWindow):
     def on_actionZoomIn_triggered(self):
         #print "on_actionZoomIn_triggered"
         current = self.WebBrowser.textSizeMultiplier()
-        self.WebBrowser.setTextSizeMultiplier(current+0.1);
+        self.WebBrowser.setTextSizeMultiplier(current+0.1)
         
     @QtCore.pyqtSignature("")
     def on_actionZoomOut_triggered(self):
         #print "on_actionZoomOut_triggered"
         current = self.WebBrowser.textSizeMultiplier()
-        self.WebBrowser.setTextSizeMultiplier(current-0.1);
+        self.WebBrowser.setTextSizeMultiplier(current-0.1)
 
         
     @QtCore.pyqtSignature("")
     def on_actionZoomNormal_triggered(self):
         #print "on_actionZoomNormal_triggered"
-        self.WebBrowser.setTextSizeMultiplier(1.0);
+        self.WebBrowser.setTextSizeMultiplier(1.0)
 
     @QtCore.pyqtSignature("")
     def on_actionShowBookmark_triggered(self):
