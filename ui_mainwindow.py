@@ -57,6 +57,7 @@ class Ui_MainWindow(object):
         self.vboxlayout.setObjectName("vboxlayout")
 
         self.WebBrowser = QtWebKit.QWebView(self.Frame3)
+        self.WebBrowser.settings().setAttribute(QtWebKit.QWebSettings.PluginsEnabled,True)
         self.WebBrowser.setObjectName("WebBrowser")
         self.vboxlayout.addWidget(self.WebBrowser)
         self.hboxlayout.addWidget(self.Frame3)
